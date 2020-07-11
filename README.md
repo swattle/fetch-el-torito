@@ -3,17 +3,14 @@
 ![version](https://img.shields.io/badge/version-1.0-brightgreen)
 [![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) 
 
-The perl-script will extract the initial/default boot image from a CD if
-existent. It'll not extract any of other possibly existing boot images
-that are allowed by the El Torito standard.
+Perl script which will extract the initial/default boot image from a CD if existent. It'll not extract any of other possibly existing boot images that are allowed by the El Torito standard.
 
 The image data are written to STDOUT. All other information is written to
-STDERR (Eg. Type and size of image).
-
+STDERR (Eg. Type and size of image). <br />
 If you want to write the image to a file instead of STDOUT, you can
 specify the filename wanted on the command-line using option -o <filename>
 
-Call: 	 fetcheltorito CD-image > toritoimagefile
+Call: 	 fetcheltorito CD-image > toritoimagefile <br />
 Example: fetcheltorito /dev/sr0  > /tmp/bootimage
 
 ## Installation
