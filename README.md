@@ -8,7 +8,7 @@ Perl script which will extract the initial/default boot image from a CD if exist
 The image data are written to STDOUT. All other information is written to
 STDERR (Eg. Type and size of image). <br />
 If you want to write the image to a file instead of STDOUT, you can
-specify the filename wanted on the command-line using option -o <filename>
+specify the filename wanted on the command-line using ```option -o <filename>```.
 
 Call: 	 fetcheltorito CD-image > toritoimagefile <br />
 Example: fetcheltorito /dev/sr0  > /tmp/bootimage
