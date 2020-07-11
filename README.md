@@ -13,6 +13,8 @@ specify the filename wanted on the command-line using ```option -o <filename>```
 Call: 	 fetcheltorito CD-image > toritoimagefile <br />
 Example: fetcheltorito /dev/sr0  > /tmp/bootimage
 
+Compatible with macOS, Linux based distros, and Windows.
+
 ## Installation
 
 [Download latest release version](https://github.com/swattle/fetch-el-torito/releases/download/v1.0/fetch-el-torito.zip).
